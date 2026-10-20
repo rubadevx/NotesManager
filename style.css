@@ -1,0 +1,91 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2efff;
+  color: #25213b;
+  padding: 30px 16px;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  background: white;
+  padding: 28px;
+  border-radius: 18px;
+  box-shadow: 0 10px 35px #30206015;
+}
+
+h1 {
+  color: #6c4ce6;
+  margin-bottom: 5px;
+}
+
+p {
+  color: #77718a;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 13px;
+  margin: 8px 0;
+  border: 1px solid #ddd7f4;
+  border-radius: 10px;
+  font: inherit;
+}
+
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+button {
+  background: #6c4ce6;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+button:hover {
+  background: #5034c2;
+}
+
+.note {
+  border: 1px solid #e5e0f5;
+  border-radius: 12px;
+  padding: 16px;
+  margin-top: 14px;
+  overflow-wrap: anywhere;
+}
+
+.note h3 {
+  margin-top: 0;
+}
+
+.note-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.delete {
+  background: #dc4560;
+}
+
+.edit {
+  background: #e9e3ff;
+  color: #5034c2;
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 18px;
+  }
+}
